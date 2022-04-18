@@ -1,0 +1,37 @@
+body {
+  font-family: sans-serif;
+  font-size: 1.125rem;
+  color: rgb(15 23 42);
+}
+
+.container {
+  margin: 100px auto;
+  max-width: 500px;
+}
+
+input[type='text'] {
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 1.125rem;
+  padding: 8px;
+  width: 100%;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+ul li {
+  padding: 0.5rem;
+  display: flex;
+  align-items: flex-start;
+}
+
+ul li span {
+  margin-left: 0.5rem;
+}
+
+li:not(:last-child) {
+  border-bottom: 1px solid #ccc;
+}
